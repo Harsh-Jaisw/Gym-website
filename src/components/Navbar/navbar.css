@@ -1,0 +1,100 @@
+header {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+header .container {
+  height: 100%;
+  padding-inline: 1rem;
+  position: relative;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff0000;
+}
+.join-us{
+  padding:0.5rem ;
+  border-radius: 0.4rem;
+  background-color:  #ff0000;
+  border: none;
+  width: 6rem;
+
+}
+.join-us:hover{
+  background-color: #e66a6a;
+
+}
+.nav-links ul,
+.nav-links {
+  gap: 2rem;
+}
+
+.nav-links ul li a {
+  color: #000;
+}
+
+.join-us {
+  position: absolute;
+  right: 0;
+}
+.btn-menu,
+.btn-close {
+  padding: 0.2rem 0.5rem;
+  font-size: 2rem;
+  display: none;
+  border: none;
+  background: none;
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+    z-index: 10;
+    transform: translateY(-100vh);
+  }
+  .container{
+    top: 0;
+  }
+  .btn-menu,
+  .btn-close {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header .toggleNavbar {
+    transform: none;
+    background: wheat
+  }
+  .join-us {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.5);
+}

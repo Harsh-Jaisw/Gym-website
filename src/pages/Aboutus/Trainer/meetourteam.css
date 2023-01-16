@@ -1,0 +1,31 @@
+section{
+    margin-top: 10rem;
+}
+.trainerColum{
+    display: flex;
+    justify-Content: "center";
+ 
+    width: "auto";
+    height: "auto"
+
+}
+.trainerColum2{
+    display: flex;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+    width: "auto";
+    height: "auto"
+}
+
+@media screen and (max-width: 768px) {
+    section{
+        margin-top: 10rem;
+    }
+    .trainerColum{
+        display: flex;
+        flex-direction: column;}
+        .trainerColum2{
+            display: flex;
+            flex-direction: column;}
+}
+

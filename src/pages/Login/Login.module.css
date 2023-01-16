@@ -1,0 +1,115 @@
+.formContainer
+{
+    width: 100%;
+    height:calc(100vh - 75px);
+    /* background: #0575E6;   */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6); 
+    background: linear-gradient(to right, #021B79, #0575E6); 
+    display: grid;
+    place-items: center;
+}
+
+.form
+{
+    width: 350px;
+    max-width: 350px;
+    height: 300px;
+    background-color: #fff;
+    padding : 2rem ;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 6px 6px 12px #ccc;
+}
+
+
+.img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    
+}
+
+
+input{
+    outline: none;
+    padding: 1rem;
+    width: 90%;
+
+}
+
+.username{
+    margin-top: 3rem;
+}
+
+.username,
+.password{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(226, 171, 43);
+}
+
+.username input,
+.password input{
+    width: 100%;
+    padding-left: 2.5rem;
+}
+
+
+.username i,
+.password i {
+    position: absolute;
+    left:10px;
+}
+
+
+
+.registerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.registerLogin p{
+    color: #000;
+    width: 20ch;
+}
+
+.registerLogin p a{
+    color: #056edd;
+    font-weight: bold;
+}
+
+.registerLogin button{
+    border: none;
+    outline:none;
+    background-color: #0570e0;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.registerLogin button:hover{
+    background-color: aliceblue;
+    color: #000;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 1024px){
+    .form{
+        width: 290px;
+        padding: 1rem;
+    }
+}

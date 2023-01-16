@@ -1,0 +1,48 @@
+.main-wrap {
+    width: 100%;
+    display: grid;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-wrap {
+    position: relative;
+    width: 100%;
+    background: rgb(27, 4, 4);
+
+}
+
+.footer-section {
+    padding: 30px;
+    margin: 15px;
+}
+
+.footer-wrap1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section h5 {
+    color: yellow;
+    display: flex;
+
+
+}
+
+.footer-section li {
+    color: aliceblue;
+}
+
+.footer-section a {
+    color: white;
+}
+
+.footer-section p {
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+
+  }

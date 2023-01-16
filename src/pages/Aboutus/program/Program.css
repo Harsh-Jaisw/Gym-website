@@ -1,0 +1,26 @@
+.program{
+    font-size: 4rem;
+    text-align: center;
+    color: red;
+ margin-bottom: 2rem;
+}
+#program{
+    margin: 3rem;
+    width: "100%" ; height: "700px"; flex-Wrap: "wrap" ;
+    margin-bottom:4rem
+}
+.program-img{
+    width: 400px;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    #program{
+        margin: 0 3rem;
+        width: 20rem ; height: "700px"
+    }
+    .program-img{
+        width: 400px;
+        height: 500px;
+    }
+}
