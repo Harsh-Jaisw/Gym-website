@@ -98,7 +98,7 @@ const Hero = () => {
                                     </Link>
                                     <Link to="/login">
                                       {" "}
-                                      <button className="joibus">LOGIN</button>
+                                     <button className="joibus">LOGIN</button>
                                     </Link>
                                   </>
                                 ) : (

@@ -137,7 +137,7 @@ const Navbar = () => {
         </nav>
         <div>
           <button className="btn-menu" onClick={toggleNavbar}>
-            <span classNam="material-symbols-outlined">menu</span>
+            <span className="material-symbols-outlined">menu</span>
           </button>
         </div>
       </div>

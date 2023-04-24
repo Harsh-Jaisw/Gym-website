@@ -7,8 +7,7 @@ export const Data = atom({
 
 export const Data2 = atom({
     key : "sub",  //20
-    default: false 
-     
+    default: false  
   })
   
   export const Data3 = atom({
