@@ -34,7 +34,6 @@ iframe {
 }
 .row{
 margin-bottom: 50px;
-/* background-color: red; */
 padding: 2vh;
 border-radius: 15px;
 }
@@ -71,7 +70,7 @@ li{
     text-align: center;
   }
   .about-section .container {
-    /* background-color: red; */
+
   text-align: center;
   padding: 3px 0;
   text-align: center;
