@@ -90,7 +90,7 @@ function Login() {
         </p>
       </form>
       <ToastContainer />
-      {show ? (
+      {show && (
         <p className="popup">
           NOW YOU CAN GET SUBSCRIBED TO OUR PREMIUM FEATURES <br />
           <Link
@@ -105,8 +105,6 @@ function Login() {
             <button onClick={loginButNotSUb}>Home</button>
           </Link>
         </p>
-      ) : (
-        ""
       )}
     </>
   );
