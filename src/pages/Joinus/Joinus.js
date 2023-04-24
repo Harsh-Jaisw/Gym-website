@@ -8,7 +8,6 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Joinus() {
   const [login, setLogin] = useRecoilState(Data);
-  const nav = useNavigate();
   useEffect(() => {
     if (localStorage.getItem("userDetails")) {
       let data = JSON.parse(localStorage.getItem("userDetails"));

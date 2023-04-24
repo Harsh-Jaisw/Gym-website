@@ -45,7 +45,7 @@ const Trainers = () => {
               alt="Jane"
               style={{
                 height: "auto",
-                maxWidth: "100%",
+                width: "100%",
                 backgroundSize: "contain",
               }}
             />
@@ -177,23 +177,13 @@ const Trainers = () => {
           </div>
         </div>
         <br />
-        <button
-          className="SeeTheWholeTeamButton"
-          style={{ margin: "0 auto", display: "block", fontSize: "20px" }}
-        >
-          <Link
-            style={{
-              color: "black",
-              textDecoration: "none",
-              padding: "1.2rem",
-              background: "red",
-              borderRadius: "2rem",
-            }}
-            to="/about"
+        <Link to="/about">
+          <button
+            className="SeeTheWholeTeamButton"
           >
             Back to Page
-          </Link>
-        </button>
+          </button>
+        </Link>
         <br />
         <br />
       </div>

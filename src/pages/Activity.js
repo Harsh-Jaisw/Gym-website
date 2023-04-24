@@ -30,6 +30,7 @@ export default function Activity() {
           <button onClick={setsub(true)}>Home</button>
         </Link>
         <div className={ActivityStyle.grid}>
+
           <img
             width="300em"
             height="300em"

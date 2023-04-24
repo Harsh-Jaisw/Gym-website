@@ -101,23 +101,15 @@ const MeetOurTeam = () => {
           </div>
         </div>
         <br />
-        <button
-          className="trainerteam"
-          style={{ margin: "0 auto", display: "block", fontSize: "20px" }}
-        >
-          <Link
-            style={{
-              color: "black",
-              textDecoration: "none",
-              padding: "1.2rem",
-              background: "red",
-              borderRadius: "2rem",
-            }}
-            to="/trainers"
+        <Link to="/trainers">
+          {" "}
+          <button
+            className="trainerteam"
           >
             View Entire Team
-          </Link>
-        </button>
+          </button>
+        </Link>
+
         <br />
         <br />
       </div>

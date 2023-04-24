@@ -1,31 +1,53 @@
-section{
-    margin-top: 10rem;
+section {
+  margin-top: 10rem;
 }
-.trainerColum{
-    display: flex;
-    justify-Content: "center";
- 
-    width: "auto";
-    height: "auto"
+.trainerColum {
+  display: flex;
+  justify-content: center;
 
+  width: auto;
+  height: auto;
 }
-.trainerColum2{
-    display: flex;
-    margin-left: 2rem;
-    flex-wrap: wrap;
-    width: "auto";
-    height: "auto"
+.SeeTheWholeTeamButton {
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 1.2rem;
+  background: red;
+  border-radius: 2rem;
+  border: none;
+}
+.trainerteam {
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  padding: 1.2rem;
+  background: red;
+  border-radius: 2rem;
+}
+.trainerColum2 {
+  display: flex;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
-    section{
-        margin-top: 10rem;
-    }
-    .trainerColum{
-        display: flex;
-        flex-direction: column;}
-        .trainerColum2{
-            display: flex;
-            flex-direction: column;}
+  section {
+    margin-top: 10rem;
+  }
+  .trainerColum {
+    display: flex;
+    flex-direction: column;
+  }
+  .trainerColum2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
